@@ -1,0 +1,69 @@
+/*Website Styles*/
+* {
+  font-size: 100%;
+  margin: 0;
+  line-height: 1;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(images/escheresque.png);
+  background-repeat: repeat;
+  color: darkslategrey;
+  font-family: "fira sans";
+  font-size: 16px;
+}
+
+h1 {
+  text-align: left;
+  color:black;
+  font-size: 36px;
+}
+header h1 {
+  text-align: center;
+}
+p {
+  margin: 15px 0;
+  line-height: 2;
+}
+
+ol {
+  margin: 15px 0;
+}
+
+header,
+section,
+footer {
+  padding: 30px;
+}
+
+header {
+  border-bottom: 1px solid grey;
+}
+
+section{
+  border: 1px solid gainsboro;
+  background-color: white;
+  margin: 30px;
+  padding: 30px 100px;
+}
+
+.title {
+  font-size: 36px;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.banner{
+  height: 350px;
+  background-image:url(images/milkyway.jpeg);
+  background-size: cover;
+}
+
+.pictures {
+  margin: 0 auto;
+  margin-top: 25px;
+  text-align: center;
+}
